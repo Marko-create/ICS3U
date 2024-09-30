@@ -11,3 +11,9 @@ radius = int(input("Enter the radius of the given circle: "))
 
 area_of_the_circle = math.pi* radius * radius  
 print (" The area of the given circle is: ", area_of_the_circle)  
+
+height = int(input("Enter the height of the given cylinder: "))
+radius = int(input("Enter the radius the given cylinder: "))
+
+volume = math.pi*radius * radius * height
+print ("The volume of the given cylinder is: ", volume)
