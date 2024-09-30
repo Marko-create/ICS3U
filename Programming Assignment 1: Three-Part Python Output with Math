@@ -6,3 +6,8 @@ width = int(input("Enter the width of the rectangle in meters: "))
 area = length * width
 
 print ("The total area of the rectangle is", area, "square meters.")
+
+radius = int(input("Enter the radius of a circle: "))
+
+area_of_the_circle = math.pi* radius * radius  
+print (" The area of the given circle is: ", area_of_the_circle)  
