@@ -1,19 +1,43 @@
 import math
 
-length = int(input("Enter the length of the rectangle in meters: "))
-width = int(input("Enter the width of the rectangle in meters: "))
+# Example inputs for length and width
+length = 10  
+width = 5    
 
+# Formula for area of a rectangle
 area = length * width
 
-print ("The total area of the rectangle is", area, "square meters.")
+print("The area of the rectangle is", area, "square meters.")
 
-radius = int(input("Enter the radius of the given circle: "))
+# User input for radius
+radius = 5  
 
-area_of_the_circle = math.pi* radius * radius  
-print (" The area of the given circle is: ", area_of_the_circle)  
+# Formula for area of a circle: A = πr^2
+area = math.pi * math.pow(radius, 2)
 
-height = int(input("Enter the height of the given cylinder: "))
-radius = int(input("Enter the radius the given cylinder: "))
+print("The area of the circle is", area, "square meters.")
 
-volume = math.pi*radius * radius * height
-print ("The volume of the given cylinder is: ", volume)
+# Example user input for radius and height
+radius = 5  
+height = 10  
+
+# Formula for volume of a cylinder: V = πr^2h
+volume = math.pi * math.pow(radius, 2) * height
+
+# Formula for surface area of a cylinder: A = 2πr(r + h)
+surface_area = 2 * math.pi * radius * (radius + height)
+
+print("The volume of the cylinder is", volume,"square meters.")
+print("The surface area of the cylinder is", surface_area, "square meters.")
+
+# Example fixed length of the pendulum (in meters)
+L = 2.0  # You can change this value to any length
+
+# Acceleration due to gravity
+g = 9.8
+
+# Calculating the period using the formula: P = 2π * sqrt(L / g)
+P = 2 * math.pi * math.sqrt(L / g)
+
+# Outputting the period rounded to 2 decimal places
+print("The time for one swing is", round(P, 3), "seconds.")
