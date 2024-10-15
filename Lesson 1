@@ -1,2 +1,0 @@
-name = "Marko"
-print("Hello", name)
