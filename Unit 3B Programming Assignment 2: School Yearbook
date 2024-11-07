@@ -1,5 +1,3 @@
-"""
-
 import math
 
 def find_min_perimeter(n):
