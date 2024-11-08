@@ -1,9 +1,9 @@
 """
 Author: Marko
 Date: 2024-11-8
-Description: This script arranges a given number of 1x1 yearbook photos in a rectangular 
-             layout with the smallest perimeter. Users input the number of photos or enter "done" 
-             to exit. The program outputs optimal dimensions and perimeter for valid entries.
+Description: This script creates a rectangle set up with the shortest perimeter by arranging a specified number of 1x1 yearbook photos.
+             Users input the number of photos or enter "done" to exit. 
+             The program outputs optimal dimensions and perimeter for valid entries.
 """
 
 import math
