@@ -1,3 +1,14 @@
+Debugging:
+import turtle
+
+t = turtle.Turtle()
+
+for i in range(3):
+  t.forward(100)
+  t.left(120)
+
+
+Modify 1:
 import turtle
 
 t = turtle.Turtle()
@@ -5,3 +16,5 @@ t = turtle.Turtle()
 for i in range(4):
     t.forward(100)
     t.left(90)
+
+
