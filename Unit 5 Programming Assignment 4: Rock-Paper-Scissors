@@ -1,1 +1,12 @@
+r = rock
+p = paper
+s = scissors
 
+random.randint(1,3)
+
+a = 'r'
+b = 'p'
+if (a == b):
+  print("Tie game!")
+elif (a == 'r') && (b == 'p'):
+  print("Player 'b' wins!")
