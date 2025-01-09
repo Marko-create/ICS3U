@@ -1,1 +1,15 @@
+file = "data.dat"
+try:
+    fh = open(file, "r")
 
+GivenName = first
+Surname = last
+CCType = card
+CCNumber = ccNum
+Exp-Mo = month
+Exp-Yr = year
+
+[first, last, card, ccNum, month, year] = customer.split(",")
+
+line1 = fh.readline().strip()
+print line1
