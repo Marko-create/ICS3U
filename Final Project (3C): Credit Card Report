@@ -1,6 +1,16 @@
 file = "data.dat"
 try:
     fh = open(file, "r")
+    eof = False
+    while not eof:
+        line = fh.readline()
+        eof = (line == "")
+    fh.close()
+except OSError as err:
+    print("OSError: ", err)
+except EOFError as err2:
+    print(“EOFError: “, err2)
+    fh.close()
     
 [first, last, card, ccNum, month, year] = customer.split(",")
 
