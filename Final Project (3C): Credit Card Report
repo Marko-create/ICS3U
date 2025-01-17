@@ -3,23 +3,18 @@ try:
     fh = open(file, "r")
     eof = False
     while not eof:
-        line = fh.readline()
+        line = fh.readline().strip()
+        print(line)
         eof = (line == "")
+        if not eof:
+            [first, last, card, ccNum, month, year] = line.split(",")
+            # make sure month is 2 digits
+            # make year and month into one string of 6 digits
+            # convert date into integer
+            # decide if the credit card is expired or "renew soon"
     fh.close()
 except OSError as err:
     print("OSError: ", err)
 except EOFError as err2:
-    print(“EOFError: “, err2)
+    print("EOFError: ", err2)
     fh.close()
-    
-[first, last, card, ccNum, month, year] = customer.split(",")
-
-GivenName = first
-Surname = last
-CCType = card
-CCNumber = ccNum
-ExpMo = month
-ExpYr = year
-
-line1 = fh.readline().strip()
-print (line1)
