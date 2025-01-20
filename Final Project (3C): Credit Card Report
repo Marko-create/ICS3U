@@ -1,3 +1,9 @@
+"""
+Author: Marko 
+Date: 2025--
+Description: This script plays a game of rock-paper-scissors
+             with yourself and a computer.
+"""
 file = "data.dat"
 try:
     fh = open(file, "r")
