@@ -1,8 +1,7 @@
 """
 Author: Marko 
 Date: 2024-12-11
-Description: This script plays a game of rock-paper-scissors
-             with yourself and a computer.
+Description: This script reads credit card data from the data.dat file and identifies if the card is expired or close to expired.
 """
 
 import random
