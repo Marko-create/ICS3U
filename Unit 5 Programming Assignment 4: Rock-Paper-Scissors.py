@@ -1,7 +1,7 @@
 """
 Author: Marko 
 Date: 2024-12-11
-Description: This script reads credit card data from the data.dat file and identifies if the card is expired or close to expired.
+Description: 
 """
 
 import random
