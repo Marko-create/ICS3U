@@ -1,8 +1,7 @@
 """
 Author: Marko 
 Date: January 2025
-Description: This script reads credit card data from the data.dat file and identifies expired or close to expired cards 
-and sorts the data by thr experation dates to nwrite the resultes to a different output file.
+Description: This script reads credit card data from the data.dat file and identifies if the card is expired or close to expired.
 """
 
 file = "data.dat"
