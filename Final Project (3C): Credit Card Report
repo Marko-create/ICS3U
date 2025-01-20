@@ -1,9 +1,10 @@
 """
 Author: Marko 
-Date: 2025--
-Description: This script plays a game of rock-paper-scissors
-             with yourself and a computer.
+Date: January 2025
+Description: This script reads credit card data from the data.dat file and identifies expired or close to expired cards 
+and sorts the data by thr experation dates to nwrite the resultes to a different output file.
 """
+
 file = "data.dat"
 try:
     fh = open(file, "r")
